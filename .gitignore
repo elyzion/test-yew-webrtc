@@ -1,7 +1,7 @@
 target
 app/target
 **/*.rs.bk
-node-modules
+node_modules
 .idea
 .cache
 .vscode
