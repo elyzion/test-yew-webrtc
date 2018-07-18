@@ -1,0 +1,8 @@
+[package]
+name = "test-webrtc"
+version = "0.1.0"
+authors = ["Berthold Alheit <balheit@yahoo-corp.jp>"]
+
+[dependencies]
+stdweb = "*"
+yew = { path = "/home/balheit/workspace/github.com/DenisKolodin/yew" }

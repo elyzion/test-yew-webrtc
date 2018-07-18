@@ -1,0 +1,12 @@
+{
+  "name": "test-webrtc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Berthold Alheit <behoalheit@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.9.7",
+    "parcel-plugin-cargo-web": "^0.3.0",
+    "webrtc-adapter": "^6.2.1"
+  }
+}
