@@ -5,4 +5,4 @@ authors = ["Berthold Alheit <balheit@yahoo-corp.jp>"]
 
 [dependencies]
 stdweb = "*"
-yew = { path = "/home/balheit/workspace/github.com/DenisKolodin/yew" }
+yew = { git = "https://github.com/DenisKolodin/yew.git" }
