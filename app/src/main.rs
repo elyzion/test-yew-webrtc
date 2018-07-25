@@ -1,3 +1,4 @@
+#[macro_use]
 extern crate stdweb;
 #[macro_use]
 extern crate yew;
@@ -92,7 +93,7 @@ impl Component for WebRTC {
 impl Renderable<WebRTC> for WebRTC {
     fn view(&self) -> Html<Self> {
         html! {
-            <video class="red",></video>
+            <video noautoplay=true, inline=true,></video>
         }
     }
 }

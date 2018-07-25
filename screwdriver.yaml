@@ -1,0 +1,9 @@
+jobs:
+    test:
+        image: rust:latest
+        requires: [~pr, ~commit]
+        steps:
+            - cd: cd app 
+            - test: cargo web test
+
+ 
