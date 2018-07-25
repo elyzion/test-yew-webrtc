@@ -4,6 +4,6 @@ jobs:
         requires: [~pr, ~commit]
         steps:
             - cd: cd app 
-            - test: cargo web test
+            - test: cargo test
 
  
